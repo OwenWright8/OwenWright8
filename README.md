@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Owen</h1>
 <h3 align="center">I am an intern at NOUTC</h3>
 
-- 🔭 I’m currently working on Valacity
 - 📫 How to reach me **Owenwright@noutc.com**
 
 <h3 align="left">Languages and Tools:</h3>
