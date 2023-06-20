@@ -54,3 +54,8 @@ body {
 .centered-title {
   text-align: center;
 }
+
+.carousel-img {
+  height: 300px; /* Adjust this value as needed */
+  object-fit: cover; /* This will prevent the images from being stretched or squished */
+}

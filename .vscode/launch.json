@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/owenwright/Documents/Code/PersonalSite/index.html"
+            "file": "/Users/owenwright/Documents/Code/PersonalSite-1/index.html"
         }
     ]
 }
