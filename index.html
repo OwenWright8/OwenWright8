@@ -10,229 +10,79 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="bg-dark text-white">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Owen Wright</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#jobs">Work Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Knowledge">Knowledge</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#plans">Future Plans</a>
-          </li>
+  <body>
+    <header class="ios-nav">
+      <a href="#" class="ios-navbar-brand">Owen Wright</a>
+      <nav>
+        <ul class="ios-navbar-nav">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#jobs">Work Experience</a></li>
+          <li><a href="#knowledge">Knowledge</a></li>
+          <li><a href="#plans">Future Plans</a></li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
-    <div id="about" class="container bg-secondary">
-      <div class="row align-items-center">
-        <div class="col-sm-4 d-flex justify-content-center">
-          <img
-            src="Images/Headshot.jpeg"
-            class="rounded-circle"
-            alt="Your Name"
-            width="200"
-            height="200"
-          />
+    <section id="about" class="ios-container">
+      <div class="ios-grid">
+        <div class="ios-cell-4 ios-center">
+          <img src="Images/Headshot.jpeg" class="ios-circle" alt="Your Name" />
         </div>
-        <div class="col-sm-8">
-          <h2 class="centered-title">About Me</h2>
-          <p>
-            Hello! My name is Owen, a soon-to-be high school senior with an
-            insatiable curiosity for technology and its impact on the world. At
-            17, I'm proudly holding an internship position at Ticomix, a leading
-            tech company, where I'm gaining invaluable hands-on experience in
-            the industry.
-          </p>
-          <p>
-            My fascination with Apple products goes beyond casual admiration.
-            I'm captivated by their innovative spirit and commitment to
-            user-friendly design. From the elegant simplicity of the MacBook to
-            the cutting-edge capabilities of the iPhone, I find myself
-            constantly inspired and motivated to learn more.
-          </p>
-          <p>
-            As I prepare to embark on my final year of high school, I am eager
-            to continue developing my skills, exploring new technological
-            frontiers, and contributing to a future where technology and daily
-            life are seamlessly integrated.
-          </p>
+        <div class="ios-cell-8">
+          <h2>About Me</h2>
+          <p><!-- About Me content goes here --></p>
         </div>
       </div>
-    </div>
-    <div id="jobs" class="container bg-secondary">
-      <h2 class="centered-title">Work Experience</h2>
+    </section>
 
-      <!-- Ticomix experience -->
-      <div class="row align-items-center my-4">
-        <div class="col-sm-4 text-center">
-          <img
-            src="Images/Ticomix.png"
-            class="rounded-circle img-circle"
-            alt="Ticomix"
-            width="200"
-            height="200"
-          />
-        </div>
-        <div class="col-sm-8">
-          <h3>Ticomix, Remote (Current)</h3>
-          <h4>Intern</h4>
-          <ul>
-            <li>
-              Write C# Playwright tests for validating the functionality and
-              performance of the system.
-            </li>
-            <li>
-              Participate in weekly meetings, discussing progress, identifying
-              issues, and planning future actions.
-            </li>
-            <li>
-              Use Azure for managing tasks and tracking pending tests, ensuring
-              an organized and effective workflow.
-            </li>
-          </ul>
-        </div>
+    <section id="jobs" class="ios-container">
+      <h2>Work Experience</h2>
+      <!-- Ticomix Experience -->
+      <div class="ios-grid">
+        <!-- Ticomix content goes here -->
       </div>
-
-      <!-- Browns Accents Candles experience -->
-      <div class="row align-items-center my-4">
-        <div class="col-sm-4 text-center">
-          <img
-            src="Images/Browns.png"
-            class="rounded-circle img-circle"
-            alt="Browns Accents Candles"
-            width="200"
-            height="200"
-          />
-        </div>
-        <div class="col-sm-8">
-          <h3>Browns Accents Candles, Lafayette, IN (2021 - Current)</h3>
-          <h4>
-            Food and Beverage Manager, Web and Systems Integration Specialist
-          </h4>
-          <ul>
-            <li>
-              Managed booth setup, payment systems, and a team of 10+ employees.
-            </li>
-            <li>
-              Designed and developed the company website and automated a
-              festival application system.
-            </li>
-            <li>
-              Implemented a payment system for easy and secure customer
-              transactions.
-            </li>
-            <li>Created a tips system and scheduling system for employees.</li>
-            <li>
-              Currently working on a remote ordering system to improve customer
-              experience and streamline operations.
-            </li>
-            <li>
-              Managed website updates and maintenance, ensuring all content was
-              up-to-date.
-            </li>
-            <li>Provided technical support to internal employees.</li>
-          </ul>
-        </div>
+      <!-- Browns Accents Candles Experience -->
+      <div class="ios-grid">
+        <!-- Browns Accents Candles content goes here -->
       </div>
-
-      <!-- No One Understands The Cloud (NOUTC) experience -->
-      <div class="row align-items-center my-4">
-        <div class="col-sm-4 text-center">
-          <img
-            src="Images/NOUTC.png"
-            class="rounded-circle"
-            alt="No One Understands The Cloud"
-            width="200"
-            height="200"
-          />
-        </div>
-        <div class="col-sm-8">
-          <h3>No One Understands The Cloud (NOUTC), Remote (2022 - 2023)</h3>
-          <h4>Intern Cloudologist In Engineering</h4>
-          <ul>
-            <li>
-              Wrote C# Selenium tests, Unit Tests, and performed various other
-              duties.
-            </li>
-            <li>Assisted a team in developing C# applications.</li>
-            <li>
-              Developed automated tests using C# and Selenium for website
-              functionality.
-            </li>
-            <li>
-              Participated in daily meetings to discuss progress and collaborate
-              on problem solving.
-            </li>
-            <li>Contributed to the setup of an Azure blob storage database.</li>
-            <li>
-              Assisted CEO with various tasks and sought mentorship for
-              professional growth.
-            </li>
-            <li>
-              Utilized online resources such as Pluralsight to expand technical
-              knowledge and skills.
-            </li>
-          </ul>
-        </div>
+      <!-- NOUTC Experience -->
+      <div class="ios-grid">
+        <!-- NOUTC content goes here -->
       </div>
-    </div>
+    </section>
 
-    <div id="knowledge" class="container bg-secondary">
-      <h2 class="centered-title">Knowledge</h2>
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-4 knowledge-item">
-          <img src="Images/HTML.png" alt="HTML icon" />
-          <h4>HTML</h4>
+    <section id="knowledge" class="ios-container">
+      <h2>Knowledge</h2>
+      <div class="ios-grid-center">
+        <div class="ios-cell-4">
+          <!-- HTML icon and description -->
         </div>
-        <div class="col-md-6 col-lg-4 knowledge-item">
-          <img src="Images/CSS.png" alt="CSS icon" />
-          <h4>CSS</h4>
-        </div>
-        <div class="col-md-6 col-lg-4 knowledge-item">
-          <img src="Images/Javascript.webp" alt="JavaScript icon" />
-          <h4>JavaScript</h4>
-        </div>
-        <div class="col-md-6 col-lg-4 knowledge-item">
-          <img src="Images/Bootstrap.png" alt="Bootstrap icon" />
-          <h4>Bootstrap</h4>
-        </div>
-        <div class="col-md-6 col-lg-4 knowledge-item">
-          <img src="Images/CSharp.png" alt="C# icon" />
-          <h4>C#</h4>
-        </div>
-        <div class="col-md-6 col-lg-4 knowledge-item">
-          <img src="Images/swiftui-icon.png" alt="SwiftUI icon" />
-          <h4>SwiftUI</h4>
-        </div>
+        <!-- More Knowledge items -->
       </div>
-    </div>
+    </section>
 
-  
-    <div id="plans" class="container bg-secondary">
+    <section id="plans" class="ios-container">
       <!-- Add your future plans info here -->
-    </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+      
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+      </script>
+      
+
   </body>
+
+  
 </html>
+
