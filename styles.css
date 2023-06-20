@@ -60,7 +60,7 @@ body {
   object-fit: cover; /* This will prevent the images from being stretched or squished */
 }
 
-#overlay {
+/*#overlay {
   position: fixed;
   overflow: hidden;
   display: show;
@@ -85,6 +85,6 @@ body {
   -ms-transform: translate(-50%, -50%);
 }
 
-/*body {
+body {
   overflow: hidden;
 }*/
