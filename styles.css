@@ -1,39 +1,36 @@
 body {
-  font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  color: #333;
-  line-height: 1.6;
-  background-color: #f7f7f7;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  color: #f1f1f1; /* Light grey for dark theme */
 }
 
 .navbar {
-  background: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .container {
-  margin: 30px;
-  padding: 30px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background: #222; /* Darker grey for dark theme */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .img-circle {
   border-radius: 50%;
-  transition: all 0.3s ease-in-out;
+  background-color: #fff;
 }
 
 .knowledge-section {
-  background-color: #fff;
-  color: #333;
+  background-color: #181818;
+  color: #f8f9fa;
   text-align: center;
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .knowledge-section h2 {
   font-size: 2.5em;
-  font-weight: 600;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .knowledge-item {
@@ -47,22 +44,18 @@ body {
   height: 100px;
   width: 100px;
   margin-bottom: 20px;
-  transition: all 0.3s ease-in-out;
 }
 
 .knowledge-item h4 {
-  font-size: 1.8em;
-  font-weight: 600;
+  font-size: 1.5em;
   margin-bottom: 10px;
 }
 
 .centered-title {
   text-align: center;
-  font-weight: 600;
 }
 
 .carousel-img {
-  height: 350px;
-  object-fit: cover;
-  border-radius: 12px;
+  height: 300px; /* Adjust this value as needed */
+  object-fit: cover; /* This will prevent the images from being stretched or squished */
 }
