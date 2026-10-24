@@ -11,7 +11,7 @@ Outside client work I build self-hosted tools, Home Assistant integrations and t
 | [**dispatch-monitor**](https://github.com/OwenWright8/dispatch-monitor) | Live map of Tippecanoe County fire & EMS dispatch. Transcribes radio traffic with Whisper, extracts call type, address and responding departments with a local LLM, and maps every call. ([Hamilton County version](https://github.com/OwenWright8/hamilton-dispatch-monitor)) | Python · Whisper · Ollama · Docker |
 | [**syllabase**](https://github.com/OwenWright8/syllabase) | Self-hosted study and homework planner for students juggling courses, labs and exams. One `docker compose up`, your own Postgres, no SaaS. | TypeScript · React · Postgres · Docker |
 | [**re-spot**](https://github.com/OwenWright8/re-spot-home) | Gives the 2017 Echo Spot a second life: a custom round-screen home UI on LineageOS with Home Assistant built in, plus a [HACS integration](https://github.com/OwenWright8/re-spot-ha). | JavaScript · Android · Python |
-| [**readcue**](https://github.com/OwenWright8/readcue) | Summarizes textbook chapters ahead of their syllabus due dates and sends reminders. Claude or Ollama, OCR, Docker Compose. | Python · Docker |
+| [**tagarr**](https://github.com/OwenWright8/tagarr) | Automatic per-person tags for a shared Jellyfin library: whatever someone requests in Seerr is tagged with their name, so everyone only sees their own stuff. Zero config. | TypeScript · React · Docker |
 
 ### 🛠️ Tools I use
 
